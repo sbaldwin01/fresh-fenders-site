@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      (function () {
+        var w = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+        var target = "/Pages/desktop/home/";
+
+        if (w <= 768) target = "/Pages/mobile/home/";
+        else if (w <= 1024) target = "/Pages/tablet/home/";
+
+        window.location.replace(target);
+      })();
+    </script>
+    <title>Fresh Fenders</title>
+  </head>
+  <body></body>
+</html>

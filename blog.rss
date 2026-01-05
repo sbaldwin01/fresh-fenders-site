@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>fresh-fenders-car-wash</title>
+    <link>https://www.freshfenders.com</link>
+    <description />
+    <atom:link href="https://www.freshfenders.com/feed/rss2" type="application/rss+xml" rel="self" />
+  </channel>
+</rss>
